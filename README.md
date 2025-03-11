@@ -1,38 +1,34 @@
  # VIRTUAL MACHINE CREATION IN LINUX
-
-## AIM
-
+ ### REG NUMBER: 212223220040
+### NAME: JENIL PIO J
+  ## AIM
 To Install Virtualbox / VMware Workstation and execute basic Linux commands like pwd, mkdir, ls, date, cat, and writing a Bash script to perform arithmetic operations and read a file from the terminal.
-
 ## PROBLEM STATEMENT
+ Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
 
-Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
 1. Displaying the current directory, files, and system date.
 2. Reading and displaying file contents.
 3. Performing basic arithmetic operations.
 
 ## REQUIREMENTS
-- Oracle VM VirtualBox MAnager
-- Kali Linux
-- Mousepad (Text Editor)
-- Terminal
-
+Oracle VM VirtualBox Manager
+Kali Linux
+Mousepad (Text Editor)
+Terminal
 ## ALGORITHM
- ### Step 1: 
+ ### Steps 1:
  Open the terminal in Kali Linux.
- ### Step 2:
- Use basic Linux commands to navigate and manage files.
- ### Step 3:
- Create a Bash script using Mousepad.
- ### Step 4:
- Write a script that performs arithmetic operations and reads a file.
- ### Step 5:
- Make the script executable.
- ### Step 6:
- Run the script and observe the output.
- 
+ ### Steps 2:
+Use basic Linux commands to navigate and manage files.
+ ### Steps 3:
+Create a Bash script using Mousepad.
+ ### Steps 4:
+Write a script that performs arithmetic operations and reads a file.
+ ### Steps 5:
+Make the script executable.
+### Steps 6:
+Run the script and observe the output.
 ## COMMANDS
-
 ###  Execute Basic Linux Commands in the Terminal
 #### Check the Current Working Directory
 ```
@@ -69,7 +65,7 @@ date
 ###  Writing a Bash Script in Mousepad
 #### Open Mousepad
 ```
-mousepad myscript.sh &
+mousepad script.sh &
 ```
 
 #### Write the Bash Script
@@ -105,23 +101,21 @@ echo "Remainder: $rem"
 ```
 ####  Make the Script Executable
 ```
-chmod +x myscript.sh
+chmod +x script.sh
 ```
 
 #### Run the Script
 ```
-./myscript.sh
+./script.sh
 ```
-
 ## OUTPUT
-
-### REG NUMBER: 212223220040
-### NAME: jenil pio j
-
-  # VIRTUAL MACHINE CREATION IN LINUX
-![WhatsApp Image 2025-03-05 at 10 18 16_f207ffa4](https://github.com/user-attachments/assets/1ff74ab9-312a-489a-a4d0-23ba98156543)
-
-
+Configuration of Kali Linux on Oracle Virtual Box :
+![alt text](<Screenshot (40).png>)
+OUTPUT:
+![alt text](<Screenshot 2025-03-11 142830.png>)
+![alt text](<Screenshot 2025-03-11 141600.png>)
+![alt text](<Screenshot 2025-03-11 142846.png>)
+![alt text](<Screenshot 2025-03-11 141529.png>)
 
 ## RESULT
 Thus, this experiment helped in understanding the fundamentals of Linux commands and Bash scripting for automation and system management.
